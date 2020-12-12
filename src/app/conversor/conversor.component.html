@@ -1,0 +1,8 @@
+<div class="contenedor">
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="numero" type="number" placeholder="Ingrese el numero arábigo">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="convertir()">Conervir a romano</button>
+    <p>El numero en romano es: {{resultado}}</p>
+</div>
